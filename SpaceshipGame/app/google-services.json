@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "773681902523",
+    "firebase_url": "https://spaceshipgame-11fe3.firebaseio.com",
+    "project_id": "spaceshipgame-11fe3",
+    "storage_bucket": "spaceshipgame-11fe3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773681902523:android:2ba3c289d1711997",
+        "android_client_info": {
+          "package_name": "uk.co.edministrator.spaceshipgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773681902523-qb7n2raaoj15utt4k5heoek8jm9t7lok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uk.co.edministrator.spaceshipgame",
+            "certificate_hash": "f94ffbfb1fc9fffc0acb275544297f39298d44dc"
+          }
+        },
+        {
+          "client_id": "773681902523-070k6nlg0g0s583iud2kvicnh5a8t5eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASv6J90Iklcm0IgsjntrTT4TOu0JVMsgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773681902523-070k6nlg0g0s583iud2kvicnh5a8t5eb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

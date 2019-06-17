@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    tools:context=".ShipSelectActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/selectShip_title"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                tools:text="Select your ship:" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/FrigateImgButton"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:background="@drawable/unselect"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/frigate" />
+
+            <ImageButton
+                android:id="@+id/FighterImgButton"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:background="@drawable/unselect"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/destroyer"
+                tools:srcCompat="@drawable/destroyer" />
+
+            <ImageButton
+                android:id="@+id/EscortImgButton"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:background="@drawable/unselect"
+                android:backgroundTintMode="multiply"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/escort" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/StartButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="2"
+                android:text="@string/selectShip_start"
+                tools:text="Start!" />
+        </TableRow>
+
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
